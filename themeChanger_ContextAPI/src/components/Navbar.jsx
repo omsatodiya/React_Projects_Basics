@@ -13,9 +13,9 @@ const Navbar = () => {
 
         <button
           onClick={toggleTheme}
-          className="px-4 py-2 rounded-md bg-primary-light dark:bg-primary-dark 
+          className="px-4 py-2 rounded-md bg-primary-light dark:bg-primary-dark
                    text-white font-medium hover:opacity-90 transition-opacity
-                   focus:outline-none focus:ring-2 focus:ring-offset-2 
+                   focus:outline-none focus:ring-2 focus:ring-offset-2
                    focus:ring-primary-light dark:focus:ring-primary-dark"
         >
           Switch to {isDarkMode ? "Light" : "Dark"} Mode
